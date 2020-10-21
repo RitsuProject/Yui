@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ritsu</title>
+    <meta property="og:title" content="Ritsu">
+    <meta property="og:url" content="https://ritsu.sazz.fail">
+    <meta property="og:image" content="assets/ritsu_header.png">
+    <meta property="og:description" content="A bot on Discord based on the game of guessing the anime by its
+    Ending or Opening theme!">
+    <meta property="theme-color" content="#ff3860">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
@@ -20,13 +26,21 @@
     ></script>
   </head>
   <body>
+
+    <!--  
+      It looks like you are looking at the code on the page, hmm... 
+      Well, this is a mess and it was done relatively quickly, 
+      so prepare for bad and badly organized code that works, 
+      this should be re-done soon.
+    -->
+
     <section class="hero bg-image is-medium is-fullheight">
       <div class="hero-head">
         <nav class="navbar is-danger">
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item">
-                <img src="assets/ritsu-logo.svg" class="logo-small" />
+                <img src="assets/ritsu_small.svg" class="logo-small" />
               </a>
               <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                 <span></span>
@@ -36,11 +50,17 @@
             </div>
             <div id="navbarMenuHeroA" class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item"> Home </a>
-                <a class="navbar-item" href="/howtoplay">How to Play</a>
-                <a class="navbar-item">Team</a>
+                <a class="navbar-item"
+                  ><span class="icon"><i class="fas fa-home"></i></span>Home<span>
+                </a>
+                <a class="navbar-item" href="/howtoplay">
+                  <span class="icon"><i class="fas fa-gamepad"></i></span>How to Play<span>
+                </a>
                 <span class="navbar-item">
-                  <a class="button is-inverted">
+                  <a
+                    class="button is-inverted"
+                    href="https://discord.com/oauth2/authorize/?permissions=3145728&scope=bot&client_id=763934732420382751"
+                  >
                     <span class="icon">
                       <i class="fas fa-sign-in-alt"></i>
                     </span>
@@ -57,11 +77,15 @@
           <img src="assets/ritsu-logo.svg" class="logo" />
           <br />
           <h2 class="subtitle color">
-            🎶 A bot on Discord based on the game of guessing the anime by its
+            A bot on Discord based on the game of guessing the anime by its
             <br />
             Ending or Opening theme!
           </h2>
-          <button class="button round">Add me on your server!</button>
+          <a
+            href="https://discord.com/oauth2/authorize/?permissions=3145728&scope=bot&client_id=763934732420382751"
+          >
+            <button class="button round">Add me on your server!</button>
+          </a>
         </div>
       </div>
     </section>
