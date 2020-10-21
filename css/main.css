@@ -2,7 +2,7 @@ body {
   background-color: #ff3860;
 }
 
-.nav {
+.color {
   color: white !important;
 }
 
@@ -10,8 +10,20 @@ body {
   border-radius: 20px;
 }
 
+.logo {
+  width: 20%;
+}
+
+.logo-small {
+  width: 20%;
+}
+
 .bg-image {
   background: url("../assets/ritsu_background.png") center center no-repeat;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
+}
+
+.margin {
+  margin-left: 100px;
 }
