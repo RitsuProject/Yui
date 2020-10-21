@@ -9,3 +9,9 @@ body {
 .ins {
   border-radius: 20px;
 }
+
+.bg-image {
+  background: url("../assets/ritsu_background.png") center center no-repeat;
+  width: 100%;
+  background-size: cover;
+}
