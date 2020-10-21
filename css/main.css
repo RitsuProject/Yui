@@ -1,9 +1,9 @@
 body {
-  background-color: #ff1f5e;
+  background-color: #ff3860;
 }
 
-.color {
-  color: #3d3d3d !important;
+.nav {
+  color: white !important;
 }
 
 .ins {
@@ -13,5 +13,5 @@ body {
 .bg-image {
   background: url("../assets/ritsu_background.png") center center no-repeat;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
 }
