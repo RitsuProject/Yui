@@ -1,5 +1,7 @@
 body {
   background-color: #ff3860;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 
 .color {
@@ -12,6 +14,14 @@ body {
 
 .logo {
   width: 20%;
+}
+
+.round {
+  border-radius: 18px;
+}
+
+.subtitle {
+  font-weight: bold;
 }
 
 .logo-small {
