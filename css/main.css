@@ -7,6 +7,9 @@ body {
   color: white !important;
 }
 
+.black {
+  color: #2c2f33 !important;
+}
 .ins {
   border-radius: 20px;
 }
