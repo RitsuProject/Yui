@@ -17,10 +17,12 @@
   <body>
     <section class="hero is-danger is-fullheight is-medium">
       <div class="hero-head">
-        <nav class="navbar">
+        <nav class="navbar is-danger">
           <div class="container">
             <div class="navbar-brand">
-              <a class="navbar-item"><strong>Ritsu</strong></a>
+              <a class="navbar-item">
+                <img src="/assets/ritsu_small.svg" class="logo-small" />
+              </a>
               <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                 <span></span>
                 <span></span>
@@ -29,11 +31,17 @@
             </div>
             <div id="navbarMenuHeroA" class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item" href="/"> Home </a>
-                <a class="navbar-item is-active">How to Play</a>
-                <a class="navbar-item">Team</a>
+                <a class="navbar-item"
+                  ><span class="icon"><i class="fas fa-home"></i></span>Home<span>
+                </a>
+                <a class="navbar-item" href="/howtoplay">
+                  <span class="icon"><i class="fas fa-gamepad"></i></span>How to Play<span>
+                </a>
                 <span class="navbar-item">
-                  <a class="button is-inverted">
+                  <a
+                    class="button is-inverted"
+                    href="https://discord.com/oauth2/authorize/?permissions=3145728&scope=bot&client_id=763934732420382751"
+                  >
                     <span class="icon">
                       <i class="fas fa-sign-in-alt"></i>
                     </span>
@@ -50,7 +58,7 @@
           <h1 class="title">How to Play</h1>
           <h2 class="subtitle">Learn how to play the game!</h2>
           <div class="box">
-            <img src="assets/ritsu_start.png" class="ins" />
+            <img src="/assets/ritsu_start.png" class="ins" />
             <h1 class="title color">Start the game.</h1>
             <p>
               When executing this command, you will start a game with the
@@ -59,7 +67,7 @@
             </p>
           </div>
           <div class="box">
-            <img src="assets/ritsu_round.png" class="ins" />
+            <img src="/assets/ritsu_round.png" class="ins" />
             <h1 class="title color">Now it's time to guess!</h1>
             <p>
               You now need to type in the chat in less than 30 seconds what is
@@ -69,7 +77,7 @@
             </p>
           </div>
           <div class="box">
-            <img src="assets/ritsu_end.png" class="ins" />
+            <img src="/assets/ritsu_end.png" class="ins" />
             <h1 class="title color">After all the rounds are over.</h1>
             <p>
               When all the rounds are over, whoever guesses the most animes
