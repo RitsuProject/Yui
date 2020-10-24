@@ -40,7 +40,7 @@ import axios from 'axios'
 export default Vue.extend({
   data() {
     return {
-      guilds: [{}],
+      guilds: new Array(),
     }
   },
   async mounted() {
