@@ -1,0 +1,126 @@
+$body-background-color: #1c1f22;
+$tabs-border-bottom-width: 0px;
+$tabs-link-color: #d1cbcb;
+$tabs-link-hover-color: #858585;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: white !important;
+}
+
+.navbar {
+  &.is-transparent {
+    .navbar-item {
+      color: whitesmoke !important;
+    }
+    background-color: transparent;
+    background-image: none;
+  }
+}
+
+.color {
+  color: white !important;
+}
+
+.black {
+  color: #2c2f33 !important;
+}
+.ins {
+  border-radius: 20px;
+}
+
+.logo {
+  width: 30%;
+  margin: -15px;
+}
+
+.round {
+  border-radius: 18px !important;
+}
+
+.server-icon {
+  border-radius: 5px;
+  width: 32px;
+  float: left;
+  position: relative;
+}
+
+.server-name {
+  margin: 5px;
+  text-align: center;
+  color: white !important;
+  font-weight: normal !important;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+button,
+a {
+  font-weight: 800 !important;
+  text-decoration: none;
+}
+
+.logo-small {
+  width: 25%;
+}
+
+.bg-image {
+  background: url('/ritsu_background.png') center center no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.margin {
+  margin-left: 100px;
+}
+
+.small-icon {
+  height: 42px;
+}
+
+.main {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.servers {
+  text-align: left;
+}
+
+.server {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  padding: 1em;
+  align-items: right;
+}
+
+.user-icon {
+  border-radius: 9px;
+}
+
+.header {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  display: block;
+  padding: 12px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-bottom: 0;
+  top: 0;
+}
+@import '../node_modules/bulma/bulma.sass';
