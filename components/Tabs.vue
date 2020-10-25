@@ -1,9 +1,9 @@
 <template>
   <div class="tabs is-centered">
     <ul>
-      <li class="tab"><a>Servers</a></li>
+      <li class="tab"><nuxt-link to="/dashboard">Servers</nuxt-link></li>
       <li class="tab"><a>Profile</a></li>
-      <li class="tab"><a>Status</a></li>
+      <li class="tab"><nuxt-link to="/dashboard/status">Status</nuxt-link></li>
     </ul>
   </div>
 </template>

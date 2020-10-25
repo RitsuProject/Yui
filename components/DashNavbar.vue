@@ -3,7 +3,10 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item">
-          <img src="ritsu_small.svg" class="logo-small" />
+          <img
+            src="https://yui-eight.vercel.app/ritsu_small.svg"
+            class="logo-small"
+          />
         </a>
         <span class="navbar-burger burger" data-target="navbarMenuHeroA">
           <span></span>
