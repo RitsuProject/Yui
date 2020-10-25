@@ -6,6 +6,7 @@ import HowToPlay from '~/pages/HowToPlay'
 import Dashboard from '~/pages/Dashboard'
 import Login from '~/pages/Login'
 import Logout from '~/pages/Logout'
+import Config from '~/pages/Dashboard/Config'
 
 Vue.use(Router)
 
@@ -28,6 +29,10 @@ export function createRouter() {
       {
         path: '/dashboard',
         component: Dashboard,
+      },
+      {
+        path: '/dashboard/config/:id',
+        component: Config,
       },
       {
         path: '/logout',
