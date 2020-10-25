@@ -8,6 +8,7 @@ import Login from '~/pages/Login'
 import Logout from '~/pages/Logout'
 import Config from '~/pages/Dashboard/Config'
 import Status from '~/pages/Dashboard/Status'
+import Profile from '~/pages/Dashboard/Profile'
 
 Vue.use(Router)
 
@@ -34,6 +35,10 @@ export function createRouter() {
       {
         path: '/dashboard/status',
         component: Status,
+      },
+      {
+        path: '/dashboard/profile',
+        component: Profile,
       },
       {
         path: '/dashboard/config/:id',
