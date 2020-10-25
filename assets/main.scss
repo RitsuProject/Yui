@@ -60,7 +60,6 @@ button,
 a {
   font-weight: 800 !important;
   text-decoration: none;
-  color: white !important;
 }
 
 .logo-small {
@@ -138,6 +137,9 @@ a {
 }
 
 .fancyButton {
+  a {
+    color: white !important;
+  }
   margin-left: 0.2em;
   height: 2.5em;
   padding: 0 0.7em;
@@ -153,6 +155,12 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.fancyButton:hover {
+  a {
+    color: whitesmoke !important;
+  }
 }
 
 .config-icon {

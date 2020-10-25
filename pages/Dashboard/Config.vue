@@ -5,14 +5,11 @@
       <div class="buttons">
         <button class="fancyButton">
           <span class="icon"><i class="fas fa-long-arrow-alt-left"></i></span
-          ><nuxt-link to="/dashboard">Go Back</nuxt-link>
+          ><nuxt-link to="/dashboard" class="link">Go Back</nuxt-link>
         </button>
       </div>
       <div class="header">
-        <img
-          src="https://cdn.discordapp.com/icons/473520284398387200/ca6547322a97447f41e402b365583c7f.png"
-          class="config-icon"
-        />
+        <img :src="serverIcon" class="config-icon" />
       </div>
       <h1 class="config-header">{{ serverName }}</h1>
       <div class="separator"></div>
@@ -83,6 +80,7 @@ export default Vue.extend({
       .goAway(2000)
 
     this.serverName = guildsConfigRes.data.guild.name
+    this.serverIcon = guildsConfigRes.data.guildIcon
     this.config.prefix = guildsConfigRes.data.guild.prefix
     this.config.provider = guildsConfigRes.data.guild.provider
 
